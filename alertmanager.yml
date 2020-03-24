@@ -1,0 +1,11 @@
+route:
+  receiver: emailer
+receivers:
+- name: emailer
+  email_configs:
+  - to: <email>
+    from: <email>
+    smarthost: smtp.gmail.com:587 
+    auth_username: <username>
+    auth_identity: <identity>
+    auth_password: <password>  
